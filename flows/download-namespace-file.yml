@@ -1,0 +1,14 @@
+id: download-namespace-file
+namespace: null
+
+tasks:
+  - id: task
+    type: io.kestra.plugin.core.namespace.DownloadFiles
+    namespace: null
+    files:
+      - newfi
+  - id: task2
+    type: io.kestra.plugin.core.namespace.UploadFiles
+    namespace: null
+    files:
+      - afil
