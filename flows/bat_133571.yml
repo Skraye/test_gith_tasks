@@ -1,0 +1,8 @@
+id: bat_133571
+namespace: company.team
+description: "azeazea"
+
+tasks:
+  - id: helloazeaz
+    type: io.kestra.plugin.core.log.Log
+    message: Hello World! 🚀

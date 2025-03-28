@@ -1,0 +1,14 @@
+id: beaver_214027
+namespace: company.team
+description: "aezeae"
+
+tasks:
+  - id: hello
+    type: io.kestra.plugin.ee.core.log.AuditLogShipper
+    resources:
+      - FLOW
+    logExporters:
+      - id: tofile
+        type: io.kestra.plugin.ee.core.log.FileLogExporter
+        maxLinesPerFile: 5
+    logLevel: DEBUG
